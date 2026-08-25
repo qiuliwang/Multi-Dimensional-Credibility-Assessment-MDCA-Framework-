@@ -2,7 +2,7 @@
 
 A framework for evaluating the quality of LLM-generated diagnostic impressions from clinical MRI liver reports.
 
-> **术语说明 / Terminology note:** 本仓库名称及早期代码使用 "Multi-Dimensional Credibility Assessment (MDCA)" 的表述；根据同行评审意见，论文中已正式更名为 **Multi-Dimensional Quality Assessment (MDQA)**。由于代码在开发过程中经过多次修改，若代码与论文表述存在任何差异，**最终以论文的描述为准**。 / This repository and its early code use the former name "Multi-Dimensional Credibility Assessment (MDCA)"; following peer review, the manuscript now uses **Multi-Dimensional Quality Assessment (MDQA)**. The code has undergone multiple revisions during development — in case of any discrepancy, **the published manuscript is authoritative**.
+> **术语说明 / Terminology note:** 本仓库早期名称及早期代码使用 "Multi-Dimensional Credibility Assessment (MDCA)" 的表述；根据同行评审意见，仓库与论文均已更名为 **Multi-Dimensional Quality Assessment (MDQA)**。由于代码在开发过程中经过多次修改，若代码与论文表述存在任何差异，**最终以论文的描述为准**。 / This repository (formerly named "Multi-Dimensional-Credibility-Assessment-MDCA-Framework") and its early code use the former name "Multi-Dimensional Credibility Assessment (MDCA)"; following peer review, both the repository and the manuscript now use **Multi-Dimensional Quality Assessment (MDQA)**. The code has undergone multiple revisions during development — in case of any discrepancy, **the published manuscript is authoritative**.
 
 **Authors:** Qiuli Wang¹,²†, Xinhuan Sun¹†, Yonglin Chen²† († contributed equally)
 
