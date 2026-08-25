@@ -58,8 +58,4 @@ P11 角色设定+基本任务要求+TOP分级诊断体系+强制核查项+报告
 ## 评分
 - `ReportScorer.py`：主版本评分器（定义 `ReportScorerPlus` 类），`Scoring.py` 调用它
 - `ReportScorerPlus.py`：评分器的优化重构版（模型缓存、线程安全、GPU、批量向量化），接口一致，可无缝替换
-- `Scoring.py`：批量评分主流程（多线程读取 + 多进程评分）
-
-## 分析绘图
-- `cmp3.py`：模型对比分析（读取各模型 CSV 的公共报告 ID 进行对比）
-- `zhexiantu_allmodels.py`：折线图绘制（全部模型指标对比）
+- `Scoring.py`：批量评分主流程（多线程读取 + 多进程评分），输出各模型各提示词的评分 CSV
