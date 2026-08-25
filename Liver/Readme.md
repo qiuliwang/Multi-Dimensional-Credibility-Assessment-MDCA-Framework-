@@ -56,3 +56,17 @@ P11 角色设定+基本任务要求+TOP分级诊断体系+强制核查项+报告
 - `ReportScorer.py`：主版本评分器（定义 `ReportScorerPlus` 类），`Scoring.py` 调用它
 - `ReportScorerPlus.py`：评分器的优化重构版（模型缓存、线程安全、GPU、批量向量化），接口一致，可无缝替换
 - `Scoring.py`：批量评分主流程（多线程读取 + 多进程评分），输出各模型各提示词的评分 CSV
+
+### 评分维度与论文术语对照（MDQA）
+
+| 代码中的表述 | 论文术语 | 权重 |
+|---|---|---|
+| 语义相似度(BERT) | Semantic Coherence (SC) | 0.4 |
+| 真实性得分(语义) | Diagnostic Correctness (DC) | 0.2 |
+| 优先级得分 | Clinical Prioritization Alignment (CPA) | 0.4 |
+| Top1匹配 | Top-1 matching | —（单独报告） |
+| 综合评分 | MDQA score | — |
+
+综合评分公式与论文一致：`MDQA = 0.4×SC + 0.2×DC + 0.4×CPA`
+
+> **说明：** 早期版本中框架名称为 "Multi-Dimensional Credibility Assessment (MDCA)"，按同行评审意见论文中已更名为 **Multi-Dimensional Quality Assessment (MDQA)**。由于代码经过多次修改，若与论文表述存在差异，**最终以论文的描述为准**。
