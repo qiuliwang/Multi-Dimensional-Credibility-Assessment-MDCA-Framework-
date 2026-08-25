@@ -1,14 +1,4 @@
-# 共有 3 个批次：
-
-## 批次：Gallbladder and_biliarytract（2 种类）
-    - upper_abdominal_enhanced: 21374 份报告
-    - upper_abdominal_plain: 10998 份报告
-###  批次 Gallbladder and_biliarytract 合计：32372 份报告
-
-## 批次：Pancreatic（2 种类）
-    - upper_abdominal_enhanced: 7320 份报告
-    - upper_abdominal_plain: 5554 份报告
-###  批次 Pancreatic 合计：12874 份报告
+# 共有 1 个批次：
 
 ## 批次：report_2nd_non-postoperative（1 种类）
     - Batch2: 15127 份报告
@@ -20,16 +10,6 @@
 prompt5是与prompt2比较，对比样本量对于prompt的影响
 
 # 验证过程 2025 10 13
-批次：Gallbladder and_biliarytract（2 种类）
-    - upper_abdominal_enhanced: 7000 份报告
-    - upper_abdominal_plain: 7000 份报告
-  批次 Gallbladder and_biliarytract 合计：14000 份报告
-
-批次：Pancreatic（2 种类）
-    - upper_abdominal_enhanced: 7320 份报告
-    - upper_abdominal_plain: 5554 份报告
-  批次 Pancreatic 合计：12874 份报告
-
 批次：report_2nd_non-postoperative（1 种类）
     - Batch2: 15127 份报告
   批次 report_2nd_non-postoperative 合计：15127 份报告

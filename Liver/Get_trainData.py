@@ -10,10 +10,8 @@ DST_ROOT = Path(r"E:\Data\Reports_Collected\Train")      # 输出目录
 MAX_THREADS = 8
 
 # 限制规则：每批次下每种类最多多少份
-LIMITS = {
-    "Gallbladder and_biliarytract": 7000,   # 每种类限制 7000
-    # 其他批次默认保留全部
-}
+# 本实验仅使用 report_2nd_non-postoperative 批次（Batch2, 15127 份），全部保留
+LIMITS = {}
 
 # 随机种子（为了可复现）
 random.seed(42)
