@@ -2,7 +2,10 @@
 
 A framework for evaluating the credibility of AI-generated clinical MRI liver reports against original radiology reports.
 
-**Author:** Q. Wang, Department of Radiology, Southwest Hospital, Army Medical University (Third Military Medical University), Chongqing, China
+**Authors:** Qiuli Wang¹,²†, Xinhuan Sun¹†, Yonglin Chen²† († contributed equally)
+
+¹ Yu-Yue Pathology Research Center, Jinfeng Laboratory, Chongqing, China
+² 7T Magnetic Resonance Imaging Translational Medical Center, Department of Radiology, Southwest Hospital, Army Medical University, Chongqing, China
 
 ## Overview
 
